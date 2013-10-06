@@ -1,0 +1,1213 @@
+{
+    "project": {},
+    "files": {
+        "system/jquery.core.js": {
+            "name": "system/jquery.core.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "system/jquery.ui.js": {
+            "name": "system/jquery.ui.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "system/sapp.Http.js": {
+            "name": "system/sapp.Http.js",
+            "modules": {},
+            "classes": {
+                "sapp.Http": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp": 1
+            }
+        },
+        "system/sapp.dom.Event.js": {
+            "name": "system/sapp.dom.Event.js",
+            "modules": {
+                "dom": 1
+            },
+            "classes": {
+                "sapp.dom.Event": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.dom": 1
+            }
+        },
+        "system/sapp.dom.Object.js": {
+            "name": "system/sapp.dom.Object.js",
+            "modules": {},
+            "classes": {
+                "sapp.dom.Object": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.dom": 1
+            }
+        },
+        "system/sapp.dom.js": {
+            "name": "system/sapp.dom.js",
+            "modules": {},
+            "classes": {
+                "sapp.dom": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp": 1
+            }
+        },
+        "system/sapp.ui.Component.js": {
+            "name": "system/sapp.ui.Component.js",
+            "modules": {
+                "ui": 1
+            },
+            "classes": {
+                "sapp.ui.Component": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "system/sapp.ui.Window.js": {
+            "name": "system/sapp.ui.Window.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.Window": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.ContextMenu.js": {
+            "name": "widgets/sapp.ui.ContextMenu.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.ContextMenu": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.Dialog.js": {
+            "name": "widgets/sapp.ui.Dialog.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.Dialog": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.FlashNotification.js": {
+            "name": "widgets/sapp.ui.FlashNotification.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.FlashNotification": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.HorizontalLayout.js": {
+            "name": "widgets/sapp.ui.HorizontalLayout.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.HorizontalLayout": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.Layout.js": {
+            "name": "widgets/sapp.ui.Layout.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.Layout": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.Menu.js": {
+            "name": "widgets/sapp.ui.Menu.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.Menu": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.MenuBar.js": {
+            "name": "widgets/sapp.ui.MenuBar.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "widgets/sapp.ui.MenuItem.js": {
+            "name": "widgets/sapp.ui.MenuItem.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.MenuItem": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.MessageBox.js": {
+            "name": "widgets/sapp.ui.MessageBox.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.MessageBox": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.Pane.js": {
+            "name": "widgets/sapp.ui.Pane.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "widgets/sapp.ui.Separator.js": {
+            "name": "widgets/sapp.ui.Separator.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.Separator": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.TabLayout.js": {
+            "name": "widgets/sapp.ui.TabLayout.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.TabLayout": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.TableView.js": {
+            "name": "widgets/sapp.ui.TableView.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.TableViewColumn.js": {
+            "name": "widgets/sapp.ui.TableViewColumn.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.TableViewColumn": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.TableViewHeading.js": {
+            "name": "widgets/sapp.ui.TableViewHeading.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.TableViewHeading": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "widgets/sapp.ui.TableViewRow.js": {
+            "name": "widgets/sapp.ui.TableViewRow.js",
+            "modules": {},
+            "classes": {
+                "sapp.ui.TableView": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.ui": 1
+            }
+        },
+        "sapp.core.js": {
+            "name": "sapp.core.js",
+            "modules": {
+                "sapp": 1
+            },
+            "classes": {
+                "sapp": 1,
+                "sapp.Class": 1,
+                "sapp.cookie": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp": 1
+            }
+        }
+    },
+    "modules": {
+        "sapp": {
+            "name": "sapp",
+            "submodules": {
+                "dom": 1,
+                "ui": 1
+            },
+            "classes": {
+                "sapp.Http": 1,
+                "sapp.dom.Event": 1,
+                "sapp.dom.Object": 1,
+                "sapp.dom": 1,
+                "sapp.ui.Component": 1,
+                "sapp.ui.Window": 1,
+                "sapp.ui.ContextMenu": 1,
+                "sapp.ui.Dialog": 1,
+                "sapp.ui.FlashNotification": 1,
+                "sapp.ui.HorizontalLayout": 1,
+                "sapp.ui.Layout": 1,
+                "sapp.ui.Menu": 1,
+                "sapp.ui.MenuItem": 1,
+                "sapp.ui.MessageBox": 1,
+                "sapp.ui.Separator": 1,
+                "sapp.ui.TabLayout": 1,
+                "sapp.ui.TableView": 1,
+                "sapp.ui.TableViewColumn": 1,
+                "sapp.ui.TableViewHeading": 1,
+                "sapp": 1,
+                "sapp.Class": 1,
+                "sapp.cookie": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "sapp.dom": 1,
+                "sapp": 1,
+                "sapp.ui": 1
+            },
+            "tag": "module",
+            "file": "sapp.core.js",
+            "line": 145,
+            "description": "The core application module"
+        },
+        "dom": {
+            "name": "dom",
+            "submodules": {},
+            "classes": {
+                "sapp.dom.Event": 1,
+                "sapp.dom.Object": 1,
+                "sapp.dom": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {
+                "sapp.dom": 1,
+                "sapp": 1
+            },
+            "module": "sapp",
+            "namespace": "",
+            "file": "system/sapp.dom.js",
+            "line": 7,
+            "description": "Dom module contans dom classes and helpers"
+        },
+        "ui": {
+            "name": "ui",
+            "submodules": {},
+            "classes": {
+                "sapp.ui.Component": 1,
+                "sapp.ui.Window": 1,
+                "sapp.ui.ContextMenu": 1,
+                "sapp.ui.Dialog": 1,
+                "sapp.ui.FlashNotification": 1,
+                "sapp.ui.HorizontalLayout": 1,
+                "sapp.ui.Layout": 1,
+                "sapp.ui.Menu": 1,
+                "sapp.ui.MenuItem": 1,
+                "sapp.ui.MessageBox": 1,
+                "sapp.ui.Separator": 1,
+                "sapp.ui.TabLayout": 1,
+                "sapp.ui.TableView": 1,
+                "sapp.ui.TableViewColumn": 1,
+                "sapp.ui.TableViewHeading": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {
+                "sapp.ui": 1
+            },
+            "module": "sapp",
+            "namespace": "",
+            "file": "widgets/sapp.ui.TableViewHeading.js",
+            "line": 8,
+            "description": "Contains UI widgets and components"
+        }
+    },
+    "classes": {
+        "sapp.Http": {
+            "name": "sapp.Http",
+            "shortname": "sapp.Http",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "namespace": "sapp",
+            "file": "system/sapp.Http.js",
+            "line": 1,
+            "description": "Build an http request",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "type",
+                    "description": "'get' or 'post'",
+                    "type": "String"
+                },
+                {
+                    "name": "url",
+                    "description": "",
+                    "type": "String"
+                }
+            ]
+        },
+        "sapp.dom.Event": {
+            "name": "sapp.dom.Event",
+            "shortname": "sapp.dom.Event",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom",
+            "file": "system/sapp.dom.Event.js",
+            "line": 6,
+            "description": "Event handler class. Helps cleanup the events after a component has been deleted\nfrom the dom",
+            "params": [
+                {
+                    "name": "component",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "is_constructor": 1
+        },
+        "sapp.dom.Object": {
+            "name": "sapp.dom.Object",
+            "shortname": "sapp.dom.Object",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom",
+            "file": "system/sapp.dom.Object.js",
+            "line": 24,
+            "extends": "jQuery",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "object",
+                    "description": "a dom object",
+                    "type": "Object"
+                }
+            ]
+        },
+        "sapp.dom": {
+            "name": "sapp.dom",
+            "shortname": "sapp.dom",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp",
+            "file": "system/sapp.dom.js",
+            "line": 7,
+            "static": 1
+        },
+        "sapp.ui.Component": {
+            "name": "sapp.ui.Component",
+            "shortname": "sapp.ui.Component",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "system/sapp.ui.Component.js",
+            "line": 14,
+            "extends": "sapp.dom.Object",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "object",
+                    "description": "a dom object",
+                    "type": "Object"
+                }
+            ]
+        },
+        "sapp.ui.Window": {
+            "name": "sapp.ui.Window",
+            "shortname": "sapp.ui.Window",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "system/sapp.ui.Window.js",
+            "line": 6,
+            "description": "Creates a new popup window",
+            "params": [
+                {
+                    "name": "Url",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "name",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "is_constructor": 1
+        },
+        "sapp.ui.ContextMenu": {
+            "name": "sapp.ui.ContextMenu",
+            "shortname": "sapp.ui.ContextMenu",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.ContextMenu.js",
+            "line": 7,
+            "is_constructor": 1
+        },
+        "sapp.ui.Dialog": {
+            "name": "sapp.ui.Dialog",
+            "shortname": "sapp.ui.Dialog",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.Dialog.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.FlashNotification": {
+            "name": "sapp.ui.FlashNotification",
+            "shortname": "sapp.ui.FlashNotification",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.FlashNotification.js",
+            "line": 7,
+            "is_constructor": 1
+        },
+        "sapp.ui.HorizontalLayout": {
+            "name": "sapp.ui.HorizontalLayout",
+            "shortname": "sapp.ui.HorizontalLayout",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.HorizontalLayout.js",
+            "line": 7,
+            "is_constructor": 1
+        },
+        "sapp.ui.Layout": {
+            "name": "sapp.ui.Layout",
+            "shortname": "sapp.ui.Layout",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.Layout.js",
+            "line": 7,
+            "is_constructor": 1
+        },
+        "sapp.ui.Menu": {
+            "name": "sapp.ui.Menu",
+            "shortname": "sapp.ui.Menu",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.Menu.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.MenuItem": {
+            "name": "sapp.ui.MenuItem",
+            "shortname": "sapp.ui.MenuItem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.MenuItem.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.MessageBox": {
+            "name": "sapp.ui.MessageBox",
+            "shortname": "sapp.ui.MessageBox",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.MessageBox.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.Separator": {
+            "name": "sapp.ui.Separator",
+            "shortname": "sapp.ui.Separator",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.Separator.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.TabLayout": {
+            "name": "sapp.ui.TabLayout",
+            "shortname": "sapp.ui.TabLayout",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.TabLayout.js",
+            "line": 6,
+            "is_constructor": 1
+        },
+        "sapp.ui.TableView": {
+            "name": "sapp.ui.TableView",
+            "shortname": "sapp.ui.TableView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.TableViewRow.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.TableViewColumn": {
+            "name": "sapp.ui.TableViewColumn",
+            "shortname": "sapp.ui.TableViewColumn",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.TableViewColumn.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp.ui.TableViewHeading": {
+            "name": "sapp.ui.TableViewHeading",
+            "shortname": "sapp.ui.TableViewHeading",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "submodule": "ui",
+            "namespace": "sapp.ui",
+            "file": "widgets/sapp.ui.TableViewHeading.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "sapp": {
+            "name": "sapp",
+            "shortname": "sapp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "namespace": "sapp",
+            "file": "sapp.core.js",
+            "line": 6,
+            "static": 1
+        },
+        "sapp.Class": {
+            "name": "sapp.Class",
+            "shortname": "Class",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "namespace": "sapp",
+            "file": "sapp.core.js",
+            "line": 52,
+            "description": "Adds additional functionality to a class",
+            "is_constructor": 1,
+            "static": 1,
+            "params": [
+                {
+                    "name": "currentClass",
+                    "description": "The class constructor",
+                    "type": "Object"
+                }
+            ]
+        },
+        "sapp.cookie": {
+            "name": "sapp.cookie",
+            "shortname": "cookie",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "sapp",
+            "namespace": "sapp",
+            "file": "sapp.core.js",
+            "line": 145,
+            "description": "Holds functions that help you managa cookies",
+            "static": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "system/jquery.core.js",
+            "line": 3983,
+            "description": "Utility function for retrieving the text value of an array of DOM nodes",
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "",
+                    "type": "Array|Element"
+                }
+            ],
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5412,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5413,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5414,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5606,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5607,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5608,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5957,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5958,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/jquery.ui.js",
+            "line": 5959,
+            "class": "sapp.Http"
+        },
+        {
+            "file": "system/sapp.Http.js",
+            "line": 17,
+            "description": "Executes an http request",
+            "itemtype": "method",
+            "name": "exec",
+            "class": "sapp.Http",
+            "namespace": "sapp"
+        },
+        {
+            "file": "system/sapp.Http.js",
+            "line": 34,
+            "description": "Retreves an option",
+            "itemtype": "method",
+            "name": "options",
+            "params": [
+                {
+                    "name": "opt",
+                    "description": "option name",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "a string if an option name is set or an object containing all options",
+                "type": "Mixed"
+            },
+            "class": "sapp.Http",
+            "namespace": "sapp"
+        },
+        {
+            "file": "system/sapp.dom.Event.js",
+            "line": 15,
+            "description": "Contains the object event connection",
+            "itemtype": "property",
+            "name": "_events",
+            "access": "protected",
+            "tagname": "",
+            "type": "{array}",
+            "class": "sapp.dom.Event",
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom"
+        },
+        {
+            "file": "system/sapp.dom.Event.js",
+            "line": 22,
+            "description": "Contains the object reference",
+            "itemtype": "property",
+            "name": "_component",
+            "access": "protected",
+            "tagname": "",
+            "type": "{object}",
+            "class": "sapp.dom.Event",
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom"
+        },
+        {
+            "file": "system/sapp.dom.Event.js",
+            "line": 31,
+            "description": "Adds an event to the components context",
+            "itemtype": "method",
+            "name": "add",
+            "params": [
+                {
+                    "name": "target",
+                    "description": "the object to bind the event to",
+                    "type": "Object"
+                },
+                {
+                    "name": "type",
+                    "description": "e.g. 'click', 'mousedown', 'keydown' etc.",
+                    "type": "String"
+                },
+                {
+                    "name": "selector",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "handler",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "the object event connection object",
+                "type": "Object"
+            },
+            "class": "sapp.dom.Event",
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom"
+        },
+        {
+            "file": "system/sapp.dom.Event.js",
+            "line": 88,
+            "description": "Unbinds an event",
+            "itemtype": "method",
+            "name": "remove",
+            "params": [
+                {
+                    "name": "eventObject",
+                    "description": "the object event connection object",
+                    "type": "Object"
+                }
+            ],
+            "chainable": 1,
+            "class": "sapp.dom.Event",
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom"
+        },
+        {
+            "file": "system/sapp.dom.Event.js",
+            "line": 103,
+            "description": "Removes all events associated with an object",
+            "itemtype": "method",
+            "name": "removeAll",
+            "chainable": 1,
+            "class": "sapp.dom.Event",
+            "module": "sapp",
+            "submodule": "dom",
+            "namespace": "sapp.dom"
+        },
+        {
+            "file": "system/sapp.dom.Object.js",
+            "line": 6,
+            "class": "sapp.dom.Object",
+            "module": "sapp",
+            "submodule": "dom"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 11,
+            "description": "Application dependencie list",
+            "itemtype": "property",
+            "name": "dependencies",
+            "static": 1,
+            "type": "{array}",
+            "class": "sapp",
+            "module": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 19,
+            "itemtype": "method",
+            "name": "require",
+            "class": "sapp",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 66,
+            "description": "<p>Creates a new class and inherits a parent class</p>\n<p><b>Note: when calling a super function use: [ParentClass].prototype.[method].call(this, arguments)</b></p>",
+            "itemtype": "method",
+            "name": "_inherits",
+            "params": [
+                {
+                    "name": "childClass",
+                    "description": "the class that will inherit the parent class",
+                    "type": "Object"
+                },
+                {
+                    "name": "parentClass",
+                    "description": "the class that this class will inherit",
+                    "type": "Object"
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "static": 1,
+            "class": "sapp.Class",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 87,
+            "description": "Copies methods form an object to the class prototype",
+            "itemtype": "method",
+            "name": "_extendPrototypeOf",
+            "params": [
+                {
+                    "name": "inheritingClass",
+                    "description": "the class that will inherit the methods",
+                    "type": "Object"
+                },
+                {
+                    "name": "methodsObject",
+                    "description": "the object that contains the methods",
+                    "type": "Object"
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "static": 1,
+            "class": "sapp.Class",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 103,
+            "description": "Adds helper methods to ease the use of Classes",
+            "itemtype": "method",
+            "name": "_addClassHelperMethods",
+            "params": [
+                {
+                    "name": "currentClass",
+                    "description": "The Class to add helpers to",
+                    "type": "Object"
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "static": 1,
+            "class": "sapp.Class",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 113,
+            "description": "Inherits properties of a parent class",
+            "params": [
+                {
+                    "name": "parentClass",
+                    "description": "The inherited class",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "the childClass",
+                "type": "Object"
+            },
+            "class": "sapp.Class",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 122,
+            "description": "Converts an object to an instance of the current class",
+            "params": [
+                {
+                    "name": "Object",
+                    "description": "the object to cast",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Object of the current class",
+                "type": "Object"
+            },
+            "class": "sapp.Class",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 152,
+            "description": "Create a cookie on the clients browser",
+            "itemtype": "method",
+            "name": "set",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "value",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "opt",
+                    "description": "",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "expires",
+                            "description": "Expiration time in seconds",
+                            "type": "Int"
+                        },
+                        {
+                            "name": "path",
+                            "description": "Default value is /",
+                            "type": "Path"
+                        },
+                        {
+                            "name": "domain",
+                            "description": "If domain is not set then the current domain\nwill be set to cookie",
+                            "type": "Domain"
+                        }
+                    ]
+                }
+            ],
+            "class": "sapp.cookie",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 186,
+            "description": "Retrieve a cookie's value",
+            "itemtype": "method",
+            "name": "get",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "sapp.cookie",
+            "module": "sapp",
+            "namespace": "sapp"
+        },
+        {
+            "file": "sapp.core.js",
+            "line": 200,
+            "description": "Deletes cookie",
+            "itemtype": "method",
+            "name": "destroy",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "the value of the cookie or null if the cookie does not exist",
+                "type": "Mixed"
+            },
+            "class": "sapp.cookie",
+            "module": "sapp",
+            "namespace": "sapp"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nUtility function for retrieving the text value of an array of DOM nodes",
+            "line": " system/jquery.core.js:3983"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5412"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5413"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5414"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5606"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5607"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5608"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5957"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5958"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/jquery.ui.js:5959"
+        },
+        {
+            "message": "Missing item type",
+            "line": " system/sapp.dom.Object.js:6"
+        },
+        {
+            "message": "Missing item type\nInherits properties of a parent class",
+            "line": " sapp.core.js:113"
+        },
+        {
+            "message": "Missing item type\nConverts an object to an instance of the current class",
+            "line": " sapp.core.js:122"
+        }
+    ]
+}

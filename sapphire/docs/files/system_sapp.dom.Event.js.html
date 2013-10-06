@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>system&#x2F;sapp.dom.Event.js</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.8.0pr2&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.8.0pr2&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="..&#x2F;assets/css/logo.png" title=""></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/sapp.html">sapp</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.Class.html">sapp.Class</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.cookie.html">sapp.cookie</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.dom.html">sapp.dom</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.dom.Event.html">sapp.dom.Event</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.dom.Object.html">sapp.dom.Object</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.Http.html">sapp.Http</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Component.html">sapp.ui.Component</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.ContextMenu.html">sapp.ui.ContextMenu</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Dialog.html">sapp.ui.Dialog</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.FlashNotification.html">sapp.ui.FlashNotification</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.HorizontalLayout.html">sapp.ui.HorizontalLayout</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Layout.html">sapp.ui.Layout</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Menu.html">sapp.ui.Menu</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.MenuItem.html">sapp.ui.MenuItem</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.MessageBox.html">sapp.ui.MessageBox</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Separator.html">sapp.ui.Separator</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TabLayout.html">sapp.ui.TabLayout</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TableView.html">sapp.ui.TableView</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TableViewColumn.html">sapp.ui.TableViewColumn</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TableViewHeading.html">sapp.ui.TableViewHeading</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Window.html">sapp.ui.Window</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="..&#x2F;modules/dom.html">dom</a></li>
+            
+                <li><a href="..&#x2F;modules/sapp.html">sapp</a></li>
+            
+                <li><a href="..&#x2F;modules/ui.html">ui</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: system&#x2F;sapp.dom.Event.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x2F;**
+ * @module sapp
+ * @submodule dom
+ *&#x2F;
+
+&#x2F;**
+ * Event handler class. Helps cleanup the events after a component has been deleted
+ * from the dom
+ * @namespace sapp.dom
+ * @param {object} component
+ * @class Event
+ * @constructor
+ *&#x2F;
+sapp.dom.Event = sapp.Class(function(component) {
+    &#x2F;**
+     * Contains the object event connection
+     * @property _events
+     * @protected
+     * @type {array}
+     *&#x2F;
+    this._events = [];
+    &#x2F;**
+     * Contains the object reference
+     * @property _component
+     * @protected
+     * @type {object}
+     *&#x2F;
+    this._component = component;
+});
+
+&#x2F;**
+ * Adds an event to the components context
+ * @method add
+ * @param {object} target the object to bind the event to
+ * @param {string} type e.g. &#x27;click&#x27;, &#x27;mousedown&#x27;, &#x27;keydown&#x27; etc.
+ * @param {string} selector 
+ * @param {object} data
+ * @param {function} handler
+ * @return {object} the object event connection object
+ *&#x2F;
+sapp.dom.Event.prototype.add = function(target, type, selector, data, handler) {
+    &#x2F;&#x2F; normalize method input
+    if(typeof(target) == &#x27;string&#x27;) {
+        handler = data;
+        data = selector;
+        selector = type;
+        
+        type = target;
+        target = this._component;
+    }
+    
+    if(typeof(selector) == &#x27;object&#x27;) {
+        handler = data;
+        data = selector;
+        selector = undefined;
+        
+    } else if(typeof(selector) == &#x27;function&#x27;) {
+        handler = selector;
+        data = selector = undefined;
+    }
+    
+    if(typeof(data) == &#x27;function&#x27;) {
+        handler = data;
+        data = undefined;
+    }
+    
+    &#x2F;&#x2F; create a unique function
+    if(handler.guid) {
+        handler.guid = undefined;
+    }
+    
+    handler = $.proxy(handler, this._component);
+    
+    var eventObject = {
+        type: type,
+        target: target,
+        handler: handler,
+        selector: selector
+    }
+    
+    this._events.push(eventObject);
+    
+    target.on(type, selector, data, handler);
+    
+    return eventObject;
+};
+
+&#x2F;**
+ * Unbinds an event
+ * @method remove
+ * @param {object} eventObject the object event connection object
+ * @chainable
+ *&#x2F;
+sapp.dom.Event.prototype.remove = function(eventObject) {
+    var index = this._events.indexOf(eventObject);
+    var event = this._events[index];
+    
+    event.target.off(event.type, event.selector, event.handler);
+    
+    return this;
+};
+
+&#x2F;**
+ * Removes all events associated with an object
+ * @method removeAll
+ * @chainable
+ *&#x2F;
+sapp.dom.Event.prototype.removeAll = function() {
+    for(var i = 0; i &lt; this._events.length; i++)
+        this.remove(this._events[i]);
+    
+    return this;
+};
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>

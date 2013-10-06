@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>system&#x2F;sapp.dom.Object.js</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.8.0pr2&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.8.0pr2&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="..&#x2F;assets/css/logo.png" title=""></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/sapp.html">sapp</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.Class.html">sapp.Class</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.cookie.html">sapp.cookie</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.dom.html">sapp.dom</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.dom.Event.html">sapp.dom.Event</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.dom.Object.html">sapp.dom.Object</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.Http.html">sapp.Http</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Component.html">sapp.ui.Component</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.ContextMenu.html">sapp.ui.ContextMenu</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Dialog.html">sapp.ui.Dialog</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.FlashNotification.html">sapp.ui.FlashNotification</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.HorizontalLayout.html">sapp.ui.HorizontalLayout</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Layout.html">sapp.ui.Layout</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Menu.html">sapp.ui.Menu</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.MenuItem.html">sapp.ui.MenuItem</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.MessageBox.html">sapp.ui.MessageBox</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Separator.html">sapp.ui.Separator</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TabLayout.html">sapp.ui.TabLayout</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TableView.html">sapp.ui.TableView</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TableViewColumn.html">sapp.ui.TableViewColumn</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.TableViewHeading.html">sapp.ui.TableViewHeading</a></li>
+            
+                <li><a href="..&#x2F;classes/sapp.ui.Window.html">sapp.ui.Window</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="..&#x2F;modules/dom.html">dom</a></li>
+            
+                <li><a href="..&#x2F;modules/sapp.html">sapp</a></li>
+            
+                <li><a href="..&#x2F;modules/ui.html">ui</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: system&#x2F;sapp.dom.Object.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x2F;**
+ * @module sapp
+ * @submodule dom
+ *&#x2F;
+
+&#x2F;** jQuery interface method for accessing the sapp.dom.Object object from the dom *&#x2F;
+jQuery.prototype.sapp = function() {
+    var $this = $(this);
+    return {
+        instance: function(component) {
+            if(component) {
+                $this.data(&#x27;__SapphireObject__&#x27;, component);
+                return component;
+            }
+
+            return $this.data(&#x27;__SapphireObject__&#x27;);
+        },
+        destroy: function() {
+            $this.removeData(&#x27;__SapphireObject__&#x27;);
+        }
+    };
+};
+
+&#x2F;**
+ * 
+ * @class Object
+ * @extends jQuery
+ * @constructor
+ * @namespace sapp.dom
+ * @param {object} object a dom object
+ *&#x2F;
+sapp.dom.Object = sapp.Class(function (object) {
+    &#x2F;&#x2F; extending an jQuert html dom object
+    &#x2F;&#x2F; no support for ie &lt;= 8
+    if(!object) {
+        object = document.createElement(&#x27;DIV&#x27;);
+    }
+    
+    if(!this.get(0)) {
+        this.init(object);
+        this.constructor = jQuery;
+    }
+    
+    this._components = [];
+    
+    this.events = new sapp.dom.Event(this);
+    
+    &#x2F;&#x2F; set an object reference in the dom
+    this.sapp().instance(this);
+    
+}).inherits(jQuery);
+
+sapp.dom.Object.prototype.getParent = function(expr) {
+    if(this._parentObject) {
+        return this._parentObject;
+    }
+    
+    var domParent = this.parent(expr);
+    var parent = domParent.sapp.instance();
+    
+    if(parent) {
+        return parent;
+    }
+    
+    return new sapp.dom.Object(domParent);
+};
+
+sapp.dom.Object.prototype.setParent = function(parentObject) {
+    this._parentObject = parentObject;
+    
+    return this;
+}
+
+sapp.dom.Object.prototype.remove = function() {
+    this.events.removeAll();
+    
+    this.trigger(&#x27;remove&#x27;);
+    
+    return jQuery.prototype.remove.call(this);
+};
+
+sapp.dom.Object.prototype.addComponent = function(object) {
+    if(!this._components) {
+        this._components = [];
+    }
+    
+    this._components.push(object);
+    this.append(object);
+    
+    return this;
+};
+
+sapp.dom.Object.prototype.addComponents = function(itemArray) {
+    if(!this._components) {
+        this._components = [];
+    }
+    
+    this._components = $.merge(this._components, itemArray);
+    
+    var itemBuffer = [];
+    for(var i in itemArray) {
+        itemBuffer[i] = itemArray[i].get(0);
+    }
+    
+    this.append(itemBuffer);
+    
+    return this;
+};
+
+sapp.dom.Object.prototype.addComponentBefore = function(beforeComponent, component) {
+    var newComponent = component;
+    
+    var currentIndex = this._components.indexOf(beforeComponent);
+        
+    this._components.splice(currentIndex, 0, newComponent);
+    
+    beforeComponent.before(newComponent);
+};
+
+sapp.dom.Object.prototype.addComponentAfter = function(afterComponent, component) {
+    var newComponent = component;
+    var currentIndex = this._components.indexOf(afterComponent);
+        
+    this._components.splice(currentIndex + 1, 0, newComponent);
+    
+    afterComponent.after(newComponent);
+};
+
+sapp.dom.Object.prototype.getComponents = function() {
+    return this._components;
+};
+
+sapp.dom.Object.prototype.clearComponents = function() {
+    for(var i = 0; i &lt; this._components.length; i++) {
+        this._components[i].remove();
+        delete this._components[i];
+    }
+    
+    return this;
+};
+
+sapp.dom.Object.prototype.removeComponent = function (object) {
+    var index = this.getComponents().indexOf(object);
+    if(index &gt;= 0) {
+        delete this._components[index];
+        object.remove();
+    }
+    
+    return this;
+};
+    
+sapp.dom.Object.prototype.widthInPercent = function(val) {
+    if(val == null) {
+        var width = this.width();
+        var parentWidth = this.offsetParent().width();
+        return 100*width&#x2F;parentWidth;
+    } else {
+        this.width(val + &#x27;%&#x27;);
+        return null;
+    }
+};
+    
+sapp.dom.Object.prototype.heightInPercent = function(val) {
+    if(val == null) {
+        var height = this.height();
+        var parentHeight = this.offsetParent().height();
+        return 100*height&#x2F;parentHeight;
+    } else {
+        this.height(val + &#x27;%&#x27;);
+        return null;
+    }
+};
+
+sapp.dom.Object.prototype.computedStyle = function(property) {
+    return sapp.dom.window.get(0)
+           .getComputedStyle(this.get(0)).getPropertyValue(property)
+};
+
+sapp.dom.Object.prototype.computedWidth = function() {
+    return parseFloat(this.computedStyle(&#x27;width&#x27;));
+};
+
+sapp.dom.Object.prototype.computedHeight = function() {
+    return parseFloat(this.computedStyle(&#x27;height&#x27;));
+};
+
+sapp.dom.Object.prototype.render = function(parentObject) {
+    parentObject.addComponent(this);
+};
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>
